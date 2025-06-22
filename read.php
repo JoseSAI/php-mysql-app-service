@@ -27,7 +27,7 @@
             echo "<h2>Catalog is empty.</h2>";
         }
         else {
-            echo "<table> <tr align=\"left\"> <th> Product Name </th> <th> Price (USD) </th> </tr>";
+            echo "<table> <tr align=\"left\"> <th> Nombre del Producto </th> <th> Precio (€) </th> </tr>";
             while ($row = mysqli_fetch_assoc($res)) {
                 echo "<tr align=\"left\"> <td> ".$row["ProductName"]." </td>";
                 echo "<td> ".$row["Price"]." </td> </tr>";
@@ -45,10 +45,10 @@
 
     <table>
         <tr>
-            <td> <a href="insert.php">Add a Product</a> </td>
-            <td> <a href="update.php">Update a Product</a> </td>
-            <td> <a href="delete.php">Remove a Product</a> </td>
-            <td> <a href="index.php">Back to Home Page</a> </td>
+            <td> <a href="insert.php">Añadir</a> </td>
+            <td> <a href="update.php">Actualizar</a> </td>
+            <td> <a href="delete.php">Eliminar</a> </td>
+            <td> <a href="index.php">Volver al Home</a> </td>
         </tr>
     </table>
     
