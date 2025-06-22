@@ -45,14 +45,14 @@
 
     ?>
 
-    <h2>Remove a Product</h2>
+    <h2>Eliminar Producto</h2>
     <br>
 
     <form method="post" action = "<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
 
         <table>
             <tr>
-                <td class="no-border"> <label for="ProductName">Product Name</label> </td>
+                <td class="no-border"> <label for="ProductName">Nombre del Producto</label> </td>
                 <td class="no-border"> <input type="text" name="ProductName" id="ProductName"> </td>
             </tr>
         </table>
@@ -67,9 +67,9 @@
     <br> <br> <br>
     <table>
         <tr>
-            <td> <a href="delete.php">Remove Another Product</a> </td>
-            <td> <a href="read.php">View Catalog</a> </td>
-            <td> <a href="index.php">Back to Home Page</a> </td>
+            <td> <a href="delete.php">Eliminar otro Producto</a> </td>
+            <td> <a href="read.php">Ver Catálogo</a> </td>
+            <td> <a href="index.php">Volver al Home</a> </td>
         </tr>
     </table>
 
