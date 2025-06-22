@@ -3,10 +3,10 @@
 <div class="center-align">
 	<ul>
 		<div class="left-align">
-			<li><a href="read.php"><strong>View Catalog</strong></a></li>
-			<li><a href="insert.php"><strong>Add a Product</strong></a></li>
-			<li><a href="update.php"><strong>Update a Product</strong></a></li>
-			<li><a href="delete.php"><strong>Remove a Product</strong></a></li>
+			<li><a href="read.php"><strong>Lista de productos</strong></a></li>
+			<li><a href="insert.php"><strong>Añadir Producto</strong></a></li>
+			<li><a href="update.php"><strong>Actualizar un Producto</strong></a></li>
+			<li><a href="delete.php"><strong>Eliminar Producto</strong></a></li>
 		</div>
 	</ul>
 </div>
