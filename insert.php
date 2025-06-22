@@ -32,10 +32,10 @@
             mysqli_stmt_bind_param($stmt, 'sd', $ProductName, $Price);
             mysqli_stmt_execute($stmt);
             if (mysqli_stmt_affected_rows($stmt) == 0) {
-                echo "<h2>Catalog update failed.</h2>";
+                echo "<h2>La actualización ha fallado.</h2>";
             }
             else {
-                echo "<h2>Product \"$ProductName\" has been successfully added.</h2>";
+                echo "<h2>El Producto \"$ProductName\" ha sido añadido.</h2>";
             }
             mysqli_stmt_close($stmt);
             
