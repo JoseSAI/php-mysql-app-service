@@ -53,7 +53,7 @@
                 <td class="no-border"> <input type="text" name="ProductName" id="ProductName"> </td>
             </tr>
             <tr>
-                <td class="no-border"> <label for="Price">Actualizar Preciosas (€)</label> </td>
+                <td class="no-border"> <label for="Price">Actualizar Precio (€)</label> </td>
                 <td class="no-border"> <input type="text" name="Price" id="Price"> </td>
             </tr>
         </table> 
