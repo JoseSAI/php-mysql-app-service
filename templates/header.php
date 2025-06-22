@@ -10,6 +10,6 @@
 </head>
 <body>
 	<div class="center-align"> 
-		<h1>Catálogo/h1>
+		<h1>Catálogo de Productos</h1>
 		<br>
 	</div>
