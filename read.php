@@ -1,4 +1,4 @@
-<?php require "templates/header.php"; ?>
+l<?php require "templates/header.php"; ?>
 
 <div class="center-align">
 
@@ -18,13 +18,13 @@
     $res = mysqli_query($conn, "SHOW TABLES LIKE 'Products'");
 
     if (mysqli_num_rows($res) <= 0) {
-        echo "<h2>Catalog is empty</h2>";
+        echo "<h2>El listado esta vacio</h2>";
     } else {
         //Query and print data
         $res = mysqli_query($conn, 'SELECT * FROM Products');
 
         if (mysqli_num_rows($res) <= 0) {
-            echo "<h2>Catalog is empty.</h2>";
+            echo "<h2>El listado esta vacio.</h2>";
         }
         else {
             echo "<table> <tr align=\"left\"> <th> Nombre del Producto </th> <th> Precio (€) </th> </tr>";
