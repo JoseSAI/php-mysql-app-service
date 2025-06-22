@@ -27,10 +27,10 @@
                 mysqli_stmt_bind_param($stmt, 's', $ProductName);
                 mysqli_stmt_execute($stmt);
                 if (mysqli_stmt_affected_rows($stmt) == 0) {
-                    echo "<h2>Product \"$ProductName\" was not found in the catalog.</h2>";
+                    echo "<h2>El Producto \"$ProductName\" no ha sido encontrado en el listado.</h2>";
                 }
                 else {
-                    echo "<h2>Product \"$ProductName\" has been removed from the catalog.</h2>";
+                    echo "<h2>El Producto \"$ProductName\" ha sido eliminado del listado.</h2>";
                 }
 
                 mysqli_stmt_close($stmt);
